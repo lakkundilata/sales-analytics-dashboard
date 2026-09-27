@@ -134,3 +134,39 @@ sales-analytics-dashboard/
 ├── .gitignore
 ├── .gitattributes
 └── README.md
+
+## Hwow to Run
+
+1. Clone the repository
+
+```markdown
+```bash
+git clone https://github.com/lakkundilata/sales-analytics-dashboard.git
+
+2. Create a Python virtual environment
+
+* python -m venv .venv
+
+3. Intall required Python packages
+
+* pip install pandas numpy matplotlib seaborn openpyxl pyodbc
+
+4. Run the python analysis
+
+* python python/analyze_sales.py
+
+5. SQL Analysis
+
+Open the SQL files in SQL Server Management Studio or VS Code with the SQL Server extension and execute the scripts against the sales_analytics database.
+
+6. Power BI
+
+Open:
+
+powerbi/Sales_Analytics_Dashboard.pbix
+
+to explore the interactive dashboard.
+
+####Project Objective
+
+The objective of this project is to demonstrate practical skills in data cleaning, exploratory analysis, SQL querying, business intelligence, dashboard development, and data storytelling using a complete end-to-end sales analytics workflow.
